@@ -4,6 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flex</title>
+    <link rel="stylesheet" href="nav.css" />
+    <style>
+      .box,
+      .box2 {
+        display: flex;
+      }
+      .box p,
+      .box2 p {
+        border: 1px solid black;
+        background-color: brown;
+        width: 100px;
+        height: 100px;
+        color: white;
+      }
+      .box2 {
+        justify-content: space-around;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/nav.html ">Home</a></li>
+          <li><a href="/video.html">Videos</a></li>
+          <li><a href="/card.html">card</a></li>
+          <li><a href="/banner.html">Banner</a></li>
+          <li><a href="/auto.html">Auto</a></li>
+          <li><a href="/center.html">Center</a></li>
+          <li><a href="/flex.html">Flex</a></li>
+          <li><a href="/form.html">Form</a></li>
+          <li><a href="/table.html">Table</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="box">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+        </div>
+        <div class="box2">
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
